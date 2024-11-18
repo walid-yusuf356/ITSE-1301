@@ -1,108 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Introduction</title>
-  </head>
-  <body>
-    <header>
-      <h1>About Avatar, and Weekly Schedule Table</h1>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Introduction</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="main-header">
+    <h1>About Avatar, and Weekly Schedule Table</h1>
+  </header>
 
-    <!-- Navigation Bar -->
-    <nav>
-      <a href="#">Home</a> | <a href="#">About Us</a> | <a href="#">Contact</a>
-    </nav>
+  <!-- Navigation Bar -->
+  <nav class="navigation">
+    <a href="#">Home</a> | <a href="#">About Us</a> | <a href="#">Contact</a>
+  </nav>
 
-    <main>
-      <!-- Part II: a List Element -->
-      <section>
-        <h2>Section Headings</h2>
-        <ul>
-          <li><a href="#avatar">My Avatar: Nova, The Code Weaver</a></li>
-          <li><a href="#schedule">My Weekly Schedule</a></li>
-        </ul>
-      </section>
+  <main class="main-avatar">
+    <!-- Part II: List Element -->
+    <section>
+      <h2>Section Headings</h2>
+      <ul>
+        <li><a href="#avatar">My Avatar: Nova, The Code Weaver</a></li>
+        <li><a href="#schedule">My Weekly Schedule</a></li>
+      </ul>
+    </section>
 
-      <!-- Part I: Avatar Section -->
-      <section id="avatar">
-        <h2>My Avatar: Nova, The Code Weaver</h2>
-          <h3>Who is Nova?</h3>
-          <p>
-            Nova is more than just a character; they embody the traits I strive
-            to cultivate as a developer. Known as the "Code Weaver," Nova
-            possesses a remarkable ability to connect complex pieces of
-            information through code. This creativity and adaptability represent
-            qualities I value deeply, as they are essential to becoming a
-            successful web developer.
-          </p>
-          <p>
-            Legends say that Nova was crafted from the threads of the digital
-            universe itself, with an innate understanding of code's language.
-            Nova's journey mirrors my own, exploring the world of web
-            development with curiosity and the drive to master new technologies.
-            Nova’s story inspires me to take on each coding challenge with a
-            similar spirit of exploration and determination.
-          </p>
-          <p>
-            The Code Weaver’s skills remind me that, like Nova, I can make a
-            meaningful impact by bridging gaps with well-constructed code.
-            Whether I'm troubleshooting a difficult issue or bringing a design
-            concept to life, I see Nova’s adaptability as an example of the
-            flexibility and creativity that web development requires.
-          </p>
-      </section>
+    <!-- Part I: Avatar Section -->
+    <section id="avatar">
+      <h3>My Avatar: Nova, The Code Weaver</h3>
+      <h3>Who is Nova?</h3>
+      <p>Nova is more than just a character; they embody...</p>
+      <p>Legends say that Nova was crafted from...</p>
+      <p>The Code Weaver’s skills remind me that...</p>
 
-      <!--  Table -->
-      <section id="schedule">
-        <table>
-          <caption>
-            My Weekly Schedule
-          </caption>
-          <thead>
-            <tr>
-              <th scope="col">Day</th>
-              <th scope="col">Morning</th>
-              <th scope="col">Afternoon</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Monday</th>
-              <td>Meditation</td>
-              <td>Class</td>
-            </tr>
-            <tr>
-              <th scope="row">Tuesday</th>
-              <td>Meditation</td>
-              <td>WorkOut</td>
-            </tr>
-            <tr>
-              <th scope="row">Wednesday</th>
-              <td>Class</td>
-              <td>Work</td>
-            </tr>
-            <tr>
-              <th scope="row">Thursday</th>
-              <td>Meditation</td>
-              <td>Study</td>
-            </tr>
-            <tr>
-              <th scope="row">Friday</th>
-              <td>Meditation</td>
-              <td>Class</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-    </main>
+      <label for="/">
+        <input type="checkbox" id="agree" />
+        I agree with the terms and conditions
+      </label>
+    </section>
 
-    <!-- Footer with Additional Links -->
-    <footer>
-      <a href="https://dallascollege.edu">Dallas College</a>
-      <a href="mailto:webmaster@example.com">Email Webmaster</a>
-      <p>&copy; 2024 Walid Yusuf. All rights reserved.</p>
-    </footer>
-  </body>
+    <!-- Table Section -->
+    <section id="schedule">
+      <table>
+        <caption>My Weekly Schedule</caption>
+        <thead>
+          <tr>
+            <th scope="col">Day</th>
+            <th scope="col">Morning</th>
+            <th scope="col">Afternoon</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Monday</th>
+            <td>Meditation</td>
+            <td>Class</td>
+          </tr>
+          <tr>
+            <th scope="row">Tuesday</th>
+            <td>Meditation</td>
+            <td>Workout</td>
+          </tr>
+          <tr>
+            <th scope="row">Wednesday</th>
+            <td>Class</td>
+            <td>Work</td>
+          </tr>
+          <tr>
+            <th scope="row">Thursday</th>
+            <td>Meditation</td>
+            <td>Study</td>
+          </tr>
+          <tr>
+            <th scope="row">Friday</th>
+            <td>Meditation</td>
+            <td>Class</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="bottom">
+    <a href="https://dallascollege.edu">Dallas College</a>
+    <a href="mailto:webmaster@example.com">Email Webmaster</a>
+    <p>&copy; 2024 Walid Yusuf. All rights reserved.</p>
+  </footer>
+</body>
 </html>
