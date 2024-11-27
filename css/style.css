@@ -1,52 +1,69 @@
 /* Structural Elements */
 header {
-    background-color: orange;
-    padding: 10px;
-  }
-  
-  nav {
-    background-color: red;
-    padding: 10px;
-  }
-  
-  footer {
-    background-color: green;
-    padding: 10px;
-  }
-  
-  /* Typography */
-  h1, h2, h3 {
-    font-family: Arial, sans-serif;
-    color: green;
-  }
-  
-  p {
-    font-family: 'Verdana', sans-serif;
-    line-height: 1.5;
-  }
-  
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    border: 5px solid black;
-  }
-  
-  /* Link Pseudo-Classes */
-  a:link {
-    color: black;
-  }
-  
-  a:visited {
-    color: blue;
-  }
-  
-  a:hover {
-    color: yellow;
-  }
-  
-  /* Class Selectors */
-  .main-header, .navigation, .main-avatar, .bottom {
-    color: black;
-  }
-  
-  
+  background-color: orange;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: green;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  font-family: Arial, sans-serif;
+  color: green;
+  text-align: center;
+}
+
+p {
+  font-family: "Verdana", sans-serif;
+  line-height: 1.5;
+}
+
+/* Gallery Styling */
+#eth {
+  display: center;
+}
+
+/* CSS for styling the images and layout */
+.images-gallery {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+}
+
+figure {
+  text-align: center;
+  margin: 10px;
+}
+
+img {
+  width: 250px; 
+  height: 250px; 
+  object-fit: cover; 
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+figcaption {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  font-size: 14px;
+  color: white;
+}
