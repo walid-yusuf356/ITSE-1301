@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./contact-us.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="main-header">
+      <h1>Nova: The Code Weaver</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navigation">
+      <a href="#">Home</a> | <a href="#">About</a> | <a href="#">Gallery</a> |
+      <a href="#">FAQ</a> | <a href="./contact-us.html">Contact Us</a>
+    </nav>
+
+    <h1>Contact Us</h1>
+    <div class="form-container">
+      <form name="contactForm" method="POST" action="success.html">
+        <fieldset>
+          <legend>Contact Information</legend>
+
+          <!-- Single-line text field -->
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Enter your name"
+          />
+
+          <!-- Email field -->
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Enter your email"
+          />
+
+          <!-- Multi-line text area -->
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Type your message"
+          ></textarea>
+
+          <!-- Radio buttons -->
+          <fieldset>
+            <legend>How did you hear about us?</legend>
+            <label>
+              <input type="radio" name="reference" value="Internet" required />
+              Internet
+            </label>
+            <label>
+              <input type="radio" name="reference" value="Friend" /> Friend
+            </label>
+            <label>
+              <input type="radio" name="reference" value="Other" /> Other
+            </label>
+          </fieldset>
+
+          <!-- Checkbox -->
+          <fieldset>
+            <legend>Newsletter Subscription</legend>
+            <label>
+              <input type="checkbox" name="newsletter" value="Subscribe" />
+              Subscribe to our newsletter
+            </label>
+          </fieldset>
+
+          <!-- Dropdown menu -->
+          <label for="inquiryType">Inquiry Type:</label>
+          <select id="inquiryType" name="inquiryType">
+            <option value="General">General Inquiry</option>
+            <option value="Support">Support</option>
+            <option value="Feedback">Feedback</option>
+          </select>
+
+          <!-- Submit and Reset buttons -->
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </fieldset>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bottom">
+      <p>&copy; 2024 Walid Yusuf. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
