@@ -6,33 +6,33 @@ body {
 }
 
 header {
-  background-color: #ffa500; /* Orange */
-  color: #000000; /* Black */
+  background-color: #ffa500;
+  color: #000000; 
   padding: 10px;
   text-align: center;
 }
 
 nav {
-  background-color: #ff0000; /* Red */
-  color: #ffffff; /* White */
+  background-color: #ff0000; 
+  color: #ffffff;
   padding: 10px;
   text-align: center;
 }
 
 nav a {
-  color: #ffffff; /* White for links */
+  color: #ffffff; 
   text-decoration: none;
   font-weight: bold;
   margin: 0 10px;
 }
 
 nav a:hover {
-  color: #ffff00; /* Yellow for hover */
+  color: #ffff00; 
 }
 
 footer {
-  background-color: #008000; /* Green */
-  color: #ffffff; /* White */
+  background-color: #008000; 
+  color: #ffffff; 
   padding: 10px;
   text-align: center;
 }

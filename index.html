@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nova: The Code Weaver</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
     <!-- Favicon Links -->
     <link rel="icon" type="image/png" sizes="32x32" href="./images/icon.png" />
     <link
@@ -16,72 +17,112 @@
   <body>
     <!-- Header Section -->
     <header class="main-header">
+      <img src="./images/logo.png" alt="Nova Logo" class="logo" />
       <h1>Nova: The Code Weaver</h1>
     </header>
 
     <!-- Navigation Bar -->
-    <nav class="navigation">
-      <a href="#">Home</a> | <a href="#">About</a> | <a href="#">Gallery</a> |
-      <a href="#">FAQ</a> | <a href="./contact-us.html">Contact Us</a>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
     </nav>
 
     <!-- Main Content -->
-    <main class="main-content">
-      <!-- Section: Nova -->
-      <section id="nova">
-        <h2>Meet Nova: Master of the Digital Realm</h2>
-        <!-- Images with Captions -->
-        <div class="images-gallery">
-          <!-- Image 1 -->
-          <figure>
-            <a href="./images/image1-lg.png" target="_blank">
-              <img
-                src="./images/image1-thumb.png"
-                alt="Nova weaving webs of code in a vibrant cybernetic realm"
-                width="250"
-                height="250"
-              />
-            </a>
-            <figcaption>
-              Nova spinning intricate webs of code, showcasing creativity in the
-              digital realm.
-            </figcaption>
-          </figure>
+    <div class="content-wrapper">
+      <main class="main-content">
+        <!-- Section: Nova -->
+        <section id="nova" class="content-section">
+          <h2>Meet Nova: Master of the Digital Realm</h2>
+          <!-- Images with Captions -->
+          <article class="image-article">
+            <figure class="figure-left">
+              <a href="./images/image1-lg.png" target="_blank">
+                <img
+                  src="./images/image1-thumb.png"
+                  alt="Nova weaving webs of code in a vibrant cybernetic realm"
+                  width="250"
+                  height="250"
+                />
+              </a>
+              <figcaption>
+                Nova spinning intricate webs of code, showcasing creativity in the
+                digital realm.
+              </figcaption>
+            </figure>
+            <p>
+              Nova, the Code Weaver, is a master of the digital realm. With her
+              unique ability to spin intricate webs of code, she creates
+              beautiful and functional digital experiences that captivate users
+              and push the boundaries of what's possible in the online world.
+            </p>
+          </article>
 
-          <!-- Image 2 -->
-          <figure>
-            <a href="./images/Image2-lg.png" target="_blank">
-              <img
-                src="./images/Image2-thumb.jpg"
-                alt="Nova’s hands creating complex digital patterns"
-                width="250"
-                height="250"
-              />
-            </a>
-            <figcaption>
-              A close-up of Nova’s hands weaving intricate patterns of glowing
-              code.
-            </figcaption>
-          </figure>
+          <article class="image-article">
+            <figure class="figure-right">
+              <a href="./images/Image2-lg.png" target="_blank">
+                <img
+                  src="./images/Image2-thumb.jpg"
+                  alt="Nova's hands creating complex digital patterns"
+                  width="250"
+                  height="250"
+                />
+              </a>
+              <figcaption>
+                A close-up of Nova's hands weaving intricate patterns of glowing
+                code.
+              </figcaption>
+            </figure>
+            <p>
+              Nova's hands move with grace and precision, weaving complex
+              patterns of glowing code that come to life before your eyes. Her
+              mastery of various programming languages allows her to create
+              seamless, efficient, and innovative solutions to even the most
+              challenging digital problems.
+            </p>
+          </article>
 
-          <!-- Image 3 -->
-          <figure>
-            <a href="./images/Image3-lg.png" target="_blank">
-              <img
-                src="./images/image3-thumb.jpg"
-                alt="Full-body representation of Nova on a futuristic platform"
-                width="250"
-                height="250"
-              />
-            </a>
-            <figcaption>
-              Nova standing confidently on a futuristic platform, surrounded by
-              a digital aura.
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-    </main>
+          <article class="image-article">
+            <figure class="figure-left">
+              <a href="./images/Image3-lg.png" target="_blank">
+                <img
+                  src="./images/image3-thumb.jpg"
+                  alt="Full-body representation of Nova on a futuristic platform"
+                  width="250"
+                  height="250"
+                />
+              </a>
+              <figcaption>
+                Nova standing confidently on a futuristic platform, surrounded by
+                a digital aura.
+              </figcaption>
+            </figure>
+            <p>
+              Standing confidently on a futuristic platform, Nova is surrounded
+              by a digital aura that represents her deep connection to the
+              virtual world. Her presence inspires awe and admiration from
+              fellow developers and clients alike, as she continues to push the
+              boundaries of what's possible in web development and digital
+              design.
+            </p>
+          </article>
+        </section>
+      </main>
+
+      <aside class="sidebar">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Nova's Portfolio</a></li>
+          <li><a href="#">Client Testimonials</a></li>
+          <li><a href="#">Latest Projects</a></li>
+          <li><a href="#">Tech Stack</a></li>
+        </ul>
+      </aside>
+    </div>
 
     <!-- Footer -->
     <footer class="bottom">
@@ -89,3 +130,4 @@
     </footer>
   </body>
 </html>
+
